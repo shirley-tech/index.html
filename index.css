@@ -1,0 +1,153 @@
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    font-family:'Roboto', sans-serif;
+}
+
+li {
+    list-style:none;
+}
+
+.header-menu {
+    background-color: rgb(147, 141, 248);
+    display:flex;
+    position:fixed;
+    width:100%;
+    padding:8px;
+    padding-top:32px;
+    padding-bottom:32px;
+    height:60px;
+}
+
+.header-menu nav{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.lista-menu {
+    display:flex;
+    justify-content:space-evenly;
+    width:50%;
+    list-style:none;
+    align-items:center;
+}
+
+.lista-menu li>a {
+    color:#FFF;
+    font-size:18px;
+    text-decoration:inherit;
+}
+
+.principal{
+    display:flex;
+    background-color:#EAEAEA;
+    height:100vh;
+}
+
+.subcontainer-principal{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.nome-completo {
+    font-size:36px;
+    color:#180ee6;
+    font-weight:700;
+    height:45px;
+}
+
+.profissao {
+    color:#eeeaea;
+    height:60px;
+}
+
+.footer{
+    background-color:#5453D8;
+    display:flex;
+    align-items:center;
+    height:30vh;
+}
+.lista-footer li{
+    color:#FFF;
+    font-weight:700;
+    font-size:18px;
+    margin-bottom:16px;
+    display:flex;
+    align-items:center;
+
+}
+.estilo-icon{
+    font-size:32px;
+    margin-right:10px;
+}
+.links{
+    color:#FFF;
+    text-decoration:none;
+
+}
+.texto-sobre  {
+    font-size:20px;
+    line-height:40px;
+    align-items: center;
+}
+.lista-descrição{
+    font-size:18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: blue;
+    font-weight: 300;
+
+}
+.lista-item{
+    padding: 32px;
+}
+.wrapper-portifolio{
+    background: #8ca7d9;
+    display: flex;
+    flex-direction: column;
+
+}
+.article-lista{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #828282;
+    font-weight: 700;
+}
+.subtitulo-lista{
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+.topico-principal{
+    font-size: 36px;
+    color: #494949
+
+}
+.lista-local {
+    font-size: 18px;
+    color: aqua;
+}
